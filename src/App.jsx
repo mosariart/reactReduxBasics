@@ -5,7 +5,9 @@ import  store  from './redux/cake/cakeStore'
 const App = () => {
   return (
     <Provider store={store}>
-      <CakeContainer/>
+      <div className='App'>
+        <CakeContainer/>
+      </div>
     </Provider>
   )
 }
