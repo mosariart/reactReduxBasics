@@ -3,7 +3,7 @@ import CakeContainer from './components/CakeContainer'
 const App = () => {
   return (
     <div>
-      <CakeContainer></CakeContainer>
+      <CakeContainer/>
     </div>
   )
 }
