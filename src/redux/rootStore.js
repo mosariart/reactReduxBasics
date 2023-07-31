@@ -11,17 +11,3 @@ const rootStore = createStore(combineReducers({
 export default rootStore;
 
 
-//at this point we are going to use redux devtools extension
-//for that first install chrome extension named redux devtools
-//and then follow along the below steps
-// npm install --save redux-devtools-extension
-
-// and to use like so:
-
-// import { createStore, applyMiddleware } from 'redux';
-// import { composeWithDevTools } from 'redux-devtools-extension';
-
-// const store = createStore(reducer, composeWithDevTools(
-//   applyMiddleware(...middleware),
-//   // other store enhancers if any
-// ));
